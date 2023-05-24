@@ -68,6 +68,7 @@ header .arrow-down{
     padding: 80px 0px;
     place-items: center;
     height: 500px;
+    padding: 0px 16px;
 }
 
 .description__title{
@@ -106,4 +107,122 @@ header .arrow-down{
 
 .line-yellow{
     background-color: var(--yellow);
+}
+
+.line-red{
+    background-color: var(--red);
+}
+
+.container{
+    height: 600px;
+    background-size: cover;
+}
+
+.container.graphic{
+    background-image: url(./images/mobile/image-graphic-design.jpg);
+}
+
+.container.graphic *{
+    color: var(--graphic-text);
+}
+
+.container .description{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 24px;
+    height: 100%;
+    padding-bottom: 48px;
+}
+
+.container .description__title{
+    font-size: 1.5rem;
+}
+
+.container .description__text{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.caixa{
+    height: 600px;
+    background-size: cover;
+}
+
+.caixa.photography{
+    background-image: url(./images/mobile/image-photography.jpg);
+}
+
+.caixa.photography *{
+    color: var(--photography-text);
+}
+
+.caixa .description{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 24px;
+    height: 100%;
+    padding-bottom: 48px;
+}
+
+.caixa .description__title{
+    font-size: 1.5rem;
+}
+
+.caixa .description__text{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.testimonials{
+    text-align: center;
+}
+
+.testimonials-title{
+    font-family: var(--title-font);
+    font-size: 1.1rem;
+    letter-spacing: .2rem;
+    color: var(--gray);
+    padding: 32px 0;
+}
+
+.client{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    height: 400px;
+}
+
+.client__avatar{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+.client__avatar.client1{
+    background-image: url(./images/image-emily.jpg);
+}
+
+.client__text{
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 2rem;
+    opacity: .6;
+}
+
+.client__name{
+    font-family: var(--title-font);
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.client__job{
+    color: var(--gray);
+    font-weight: 600;
+    padding: 12px;
 }
